@@ -1,5 +1,5 @@
 // it loop through each element of the array and return the match
-linearSearch = (array, value) => {
+const linearSearch = (array, value) => {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === value) {
       return `value found at index ${i}`;
